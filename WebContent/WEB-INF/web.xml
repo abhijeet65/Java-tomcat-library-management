@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>oo</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+
+		
+			
+			
+			
+			<servlet>
+				    <servlet-name>Issue_Book_Student_Controller</servlet-name>
+				    <jsp-file>/school/admin/issue/controller/Issue_Book_Student_Controller.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Issue_Book_Student_Controller</servlet-name>
+				    <url-pattern>/issue-book-student-controller/*</url-pattern>   
+				</servlet-mapping>
+		
+			
+			
+			
+			
+			<servlet>
+				    <servlet-name>Issue_Book_From_Student</servlet-name>
+				    <jsp-file>/school/admin/issue/view/Issue_Book_From_Student.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Issue_Book_From_Student</servlet-name>
+				    <url-pattern>/issue-book-student/*</url-pattern>   
+				</servlet-mapping>
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<servlet>
+				    <servlet-name>Delete_Serail_Inventry_Controller</servlet-name>
+				    <jsp-file>/school/admin/inventry/controller/Delete_Serail_Inventry_Controller.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Delete_Serail_Inventry_Controller</servlet-name>
+				    <url-pattern>/delete-serial-controller/*</url-pattern>   
+				</servlet-mapping>
+		
+			
+			
+			
+			
+			
+				<servlet>
+				    <servlet-name>Edit_Profile_Controller</servlet-name>
+				    <jsp-file>/school/admin/profile/controller/Edit_Profile_Controller.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Edit_Profile_Controller</servlet-name>
+				    <url-pattern>/edit-profile-controller/*</url-pattern>   
+				</servlet-mapping>
+		
+			
+			
+			
+			<servlet>
+				    <servlet-name>Admin_Edit_Profile</servlet-name>
+				    <jsp-file>/school/admin/profile/view/Edit_Profile.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Admin_Edit_Profile</servlet-name>
+				    <url-pattern>/edit-profile-admin/*</url-pattern>   
+				</servlet-mapping>
+		
+			
+			
+			
+			
+			
+			
+			<servlet>
+				    <servlet-name>View_All_Pending_History</servlet-name>
+				    <jsp-file>/school/admin/issue/view/View_All_Pending_History.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>View_All_Pending_History</servlet-name>
+				    <url-pattern>/view-all-pending-issues/*</url-pattern>   
+				</servlet-mapping>
+		
+			
+			
+				<servlet>
+				    <servlet-name>View_All_Students</servlet-name>
+				    <jsp-file>/school/admin/Student/view/View_All_Students.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>View_All_Students</servlet-name>
+				    <url-pattern>/view-all-students/*</url-pattern>   
+				</servlet-mapping>
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+				<servlet>
+				    <servlet-name>Edit_Author_Controller</servlet-name>
+				    <jsp-file>/school/admin/author/controller/Edit_Author_Controller.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Edit_Author_Controller</servlet-name>
+				    <url-pattern>/edit-author-controller/*</url-pattern>   
+				</servlet-mapping>
+		
+			
+			
+			
+			
+			
+				<servlet>
+				    <servlet-name>Edit_Author</servlet-name>
+				    <jsp-file>/school/admin/author/view/Edit_Author.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Edit_Author</servlet-name>
+				    <url-pattern>/edit-author/*</url-pattern>   
+				</servlet-mapping>
+		
+			
+			
+			
+			
+			
+			
+			
+			
+
+					<servlet>
+				    <servlet-name>Delete_This_Issue_Controller</servlet-name>
+				    <jsp-file>/school/admin/issue/controller/Delete_This_Issue_Controller.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Delete_This_Issue_Controller</servlet-name>
+				    <url-pattern>/delete-issue-contro/*</url-pattern>   
+				</servlet-mapping>
+		
+
+
+ 				<servlet>
+				    <servlet-name>Edit_Student_Controller</servlet-name>
+				    <jsp-file>/school/admin/Student/controller/Edit_Student_Controller.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Edit_Student_Controller</servlet-name>
+				    <url-pattern>/edit-profile-student-controller/*</url-pattern>   
+				</servlet-mapping>
+		
+
+
+
+
+
+
+ 				<servlet>
+				    <servlet-name>Edit_Complete_Details_Of_Student</servlet-name>
+				    <jsp-file>/school/admin/Student/view/Edit_Complete_Details_Of_Student.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Edit_Complete_Details_Of_Student</servlet-name>
+				    <url-pattern>/edit-profile-student/*</url-pattern>   
+				</servlet-mapping>
+		
+		
+
+
+
+ 
+  <servlet>
+				    <servlet-name>Search_Issue_History</servlet-name>
+				    <jsp-file>/school/admin/issue/view/Search_Issue_History.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Search_Issue_History</servlet-name>
+				    <url-pattern>/search-issue-history/*</url-pattern>   
+				</servlet-mapping>
+		
+		
+		
+ 			
+ <servlet>
+				    <servlet-name>View_All_Book</servlet-name>
+				    <jsp-file>/school/admin/book/view/View_All_Book.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>View_All_Book</servlet-name>
+				    <url-pattern>/view-all-books/*</url-pattern>   
+				</servlet-mapping>
+		
+		
+		
+ 
+ 			 <servlet>
+				    <servlet-name>Print_One_Bar_Code</servlet-name>
+				    <jsp-file>/school/admin/inventry/view/Print_One_Bar_Code.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Print_One_Bar_Code</servlet-name>
+				    <url-pattern>/print-one-bar-code/*</url-pattern>   
+				</servlet-mapping>
+		
+ 
+ 
+ 
+ 
+ 
+ 	   <servlet>
+				    <servlet-name>Print_Bar_Code</servlet-name>
+				    <jsp-file>/school/admin/inventry/view/Print_Bar_Code.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Print_Bar_Code</servlet-name>
+				    <url-pattern>/print-bar-code/*</url-pattern>   
+				</servlet-mapping>
+				
+				
+				
+				
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      <servlet>
+				    <servlet-name> Edit_Serail_Inventry_Controller</servlet-name>
+				    <jsp-file>/school/admin/inventry/controller/Edit_Serail_Inventry_Controller.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Edit_Serail_Inventry_Controller</servlet-name>
+				    <url-pattern>/edit-inventry-serial-contro/*</url-pattern>   
+				</servlet-mapping>
+	
+     
+      <servlet>
+				    <servlet-name>Edit_Serial_Inventry</servlet-name>
+				    <jsp-file>/school/admin/inventry/view/Edit_Serial_Inventry.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Edit_Serial_Inventry</servlet-name>
+				    <url-pattern>/edit-inventry-serial/*</url-pattern>   
+				</servlet-mapping>
+	
+     
+     
+     
+     <servlet>
+				    <servlet-name>Complete_Issue_History</servlet-name>
+				    <jsp-file>/school/admin/issue/view/Complete_Issue_History.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Complete_Issue_History</servlet-name>
+				    <url-pattern>/complete-issue-history/*</url-pattern>   
+				</servlet-mapping>
+	
+     
+     
+     
+     
+     
+     
+    <servlet>
+				    <servlet-name>Update_Issue_Book_Controller</servlet-name>
+				    <jsp-file>/school/admin/issue/controller/Update_Issue_Book_Controller.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Update_Issue_Book_Controller</servlet-name>
+				    <url-pattern>/update-issue-book-contro/*</url-pattern>   
+				</servlet-mapping>
+	
+  
+  
+  
+  
+   
+   
+    <servlet>
+				    <servlet-name>Update_Issue_Book</servlet-name>
+				    <jsp-file>/school/admin/issue/view/Update_Issue_Book.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Update_Issue_Book</servlet-name>
+				    <url-pattern>/update-issue-book/*</url-pattern>   
+				</servlet-mapping>
+	
+   
+   
+   
+   
+   	 <servlet>
+				    <servlet-name>Issue_History_Student</servlet-name>
+				    <jsp-file>/school/admin/issue/view/Issue_History_Student.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Issue_History_Student</servlet-name>
+				    <url-pattern>/issue-history-student/*</url-pattern>   
+				</servlet-mapping>
+	
+   
+   
+   				 <servlet>
+				    <servlet-name>search_bar_form</servlet-name>
+				    <jsp-file>/school/admin/book/view/search_bar_form.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>search_bar_form</servlet-name>
+				    <url-pattern>/search-bar-code-form/*</url-pattern>   
+				</servlet-mapping>
+	
+   
+   
+   
+   
+   
+   <servlet>
+				    <servlet-name>Search_Book_Bar_Code</servlet-name>
+				    <jsp-file>/school/admin/book/view/Search_Book_Bar_Code.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Search_Book_Bar_Code</servlet-name>
+				    <url-pattern>/search-bar-code/*</url-pattern>   
+				</servlet-mapping>
+	
+   
+  				<servlet>
+				    <servlet-name>Issue_History</servlet-name>
+				    <jsp-file>/school/admin/issue/view/Issue_History.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Issue_History</servlet-name>
+				    <url-pattern>/issue-history/*</url-pattern>   
+				</servlet-mapping>
+	
+  
+  
+  				<servlet>
+				    <servlet-name>Issue_Book_Controller</servlet-name>
+				    <jsp-file>/school/admin/issue/controller/Issue_Book_Controller.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Issue_Book_Controller</servlet-name>
+				    <url-pattern>/issue-book-contr/*</url-pattern>   
+				</servlet-mapping>
+	
+  
+  
+  
+  
+  
+  
+   				<servlet>
+				    <servlet-name>Issue_Book</servlet-name>
+				    <jsp-file>/school/admin/issue/view/Issue_Book.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Issue_Book</servlet-name>
+				    <url-pattern>/issue-book/*</url-pattern>   
+				</servlet-mapping>
+	
+  
+  
+  
+  
+  
+  
+  
+  
+     <servlet>
+				    <servlet-name>Edit_Book_Controller</servlet-name>
+				    <jsp-file>/school/admin/book/controller/Edit_Book_Controller.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Edit_Book_Controller</servlet-name>
+				    <url-pattern>/edit-book-controller/*</url-pattern>   
+				</servlet-mapping>
+	
+  
+  
+  
+    <servlet>
+				    <servlet-name>Edit_Book</servlet-name>
+				    <jsp-file>/school/admin/book/view/Edit_Book.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Edit_Book</servlet-name>
+				    <url-pattern>/edit-book/*</url-pattern>   
+				</servlet-mapping>
+	
+  
+  
+  
+  
+  
+  	  <servlet>
+				    <servlet-name>Search_Book_admin</servlet-name>
+				    <jsp-file>/school/admin/book/view/Search_Book.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Search_Book_admin</servlet-name>
+				    <url-pattern>/search-book/*</url-pattern>   
+				</servlet-mapping>
+	
+  
+  
+  
+  
+  
+     <servlet>
+				    <servlet-name>Complete_Details_Of_Student</servlet-name>
+				    <jsp-file>/school/admin/Student/view/Complete_Details_Of_Student.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Complete_Details_Of_Student</servlet-name>
+				    <url-pattern>/complete-details-student/*</url-pattern>   
+				</servlet-mapping>
+	
+  
+  
+  
+  
+  
+  
+     <servlet>
+				    <servlet-name>search_student_form</servlet-name>
+				    <jsp-file>/school/admin/Student/view/search_student_form.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>search_student_form</servlet-name>
+				    <url-pattern>/search-form-student/*</url-pattern>   
+				</servlet-mapping>
+	
+  
+  
+  
+  
+  
+  
+  
+  
+   <servlet>
+				    <servlet-name>Add_Inventry_Controller</servlet-name>
+				    <jsp-file>/school/admin/inventry/controller/Add_Inventry_Controller.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Add_Inventry_Controller</servlet-name>
+				    <url-pattern>/inventry-book-controller/*</url-pattern>   
+				</servlet-mapping>
+	
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   <servlet>
+				    <servlet-name>Inventry_Books</servlet-name>
+				    <jsp-file>/school/admin/inventry/view/Inventry_Books.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Inventry_Books</servlet-name>
+				    <url-pattern>/inventry-books/*</url-pattern>   
+				</servlet-mapping>
+	
+  
+  
+  
+  
+  
+  
+  <servlet>
+				    <servlet-name>search_book_form</servlet-name>
+				    <jsp-file>/school/admin/book/view/search_book_form.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>search_book_form</servlet-name>
+				    <url-pattern>/search-book-form/*</url-pattern>   
+				</servlet-mapping>
+	
+	
+	
+  
+  <servlet>
+				    <servlet-name>Student_Search</servlet-name>
+				    <jsp-file>/school/admin/Student/view/Student_Search.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Student_Search</servlet-name>
+				    <url-pattern>/student-search/*</url-pattern>   
+				</servlet-mapping>
+	
+  
+  
+  <servlet>
+				    <servlet-name>Add_Student_Controller</servlet-name>
+				    <jsp-file>/school/admin/Student/controller/Add_Student_Controller.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Add_Student_Controller</servlet-name>
+				    <url-pattern>/add-student-contro/*</url-pattern>   
+				</servlet-mapping>
+		
+  
+  
+  
+    <servlet>
+				    <servlet-name>Add_Student</servlet-name>
+				    <jsp-file>/school/admin/Student/view/Add_Student.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Add_Student</servlet-name>
+				    <url-pattern>/add-student/*</url-pattern>   
+				</servlet-mapping>
+		
+  
+  
+  
+  
+  
+   <servlet>
+				    <servlet-name>Complete_Details_Of_Book</servlet-name>
+				    <jsp-file>/school/admin/book/view/Complete_Details_Of_Book.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Complete_Details_Of_Book</servlet-name>
+				    <url-pattern>/complete-details-of-book/*</url-pattern>   
+				</servlet-mapping>
+		
+  
+  
+  
+  
+  
+  
+    <servlet>
+				    <servlet-name>Search_Author</servlet-name>
+				    <jsp-file>/school/admin/author/view/Search_Author.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Search_Author</servlet-name>
+				    <url-pattern>/search-author/*</url-pattern>   
+				</servlet-mapping>
+		
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <servlet>
+				    <servlet-name>Add_Author_Controller</servlet-name>
+				    <jsp-file>/school/admin/author/controller/Add_Author_Controller.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Add_Author_Controller</servlet-name>
+				    <url-pattern>/add-author-contro/*</url-pattern>   
+				</servlet-mapping>
+		
+	
+  
+  
+  
+  
+  
+  
+  
+  
+  	<servlet>
+				    <servlet-name>Edit_Category_Controller</servlet-name>
+				    <jsp-file>/school/admin/category/controller/Edit_Category_Controller.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Edit_Category_Controller</servlet-name>
+				    <url-pattern>/edit-category-contro/*</url-pattern>   
+				</servlet-mapping>
+		
+		
+  
+  
+  
+  
+  
+  	<servlet>
+				    <servlet-name>Edit_Category</servlet-name>
+				    <jsp-file>/school/admin/category/view/Edit_Category.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Edit_Category</servlet-name>
+				    <url-pattern>/edit-category/*</url-pattern>   
+				</servlet-mapping>
+		
+		
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  					<servlet>
+				    <servlet-name>Add_Author</servlet-name>
+				    <jsp-file>/school/admin/author/view/Add_Author.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping> 
+				    <servlet-name>Add_Author</servlet-name>
+				    <url-pattern>/add-author</url-pattern>   
+				</servlet-mapping>
+		
+		
+		
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+   	<servlet>
+				    <servlet-name>search_category_list</servlet-name>
+				    <jsp-file>/school/admin/book/view/search_category.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping>
+				    <servlet-name>search_category_list</servlet-name>
+				    <url-pattern>/search-category-list/*</url-pattern>   
+				</servlet-mapping>
+		
+		
+		
+  
+  	<servlet>
+				    <servlet-name>Search_Category</servlet-name>
+				    <jsp-file>/school/admin/category/view/Search_Category.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping>
+				    <servlet-name>Search_Category</servlet-name>
+				    <url-pattern>/admin-search-category/*</url-pattern>   
+				</servlet-mapping>
+		
+		
+		
+		
+  				<servlet>
+				    <servlet-name>Add_Category_Controller</servlet-name>
+				    <jsp-file>/school/admin/category/controller/Add_Category_Controller.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping>
+				    <servlet-name>Add_Category_Controller</servlet-name>
+				    <url-pattern>/admin-add-category-controller</url-pattern>   
+				</servlet-mapping>
+		
+  
+  
+  
+  
+  				<servlet>
+				    <servlet-name>Add_Category</servlet-name>
+				    <jsp-file>/school/admin/category/view/Add_Category.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping>
+				    <servlet-name>Add_Category</servlet-name>
+				    <url-pattern>/admin-add-category</url-pattern>   
+				</servlet-mapping>
+		
+  
+   
+  
+  
+  
+  
+  
+  
+  
+   			<servlet>
+				    <servlet-name>Add_Book_Controller</servlet-name>
+				    <jsp-file>/school/admin/book/controller/Add_Book_Controller.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping>
+				    <servlet-name>Add_Book_Controller</servlet-name>
+				    <url-pattern>/admin-add-book-controller</url-pattern>   
+				</servlet-mapping>
+		
+		
+		
+		
+  
+   			<servlet>
+				    <servlet-name>ADMIN_Add_Book</servlet-name>
+				    <jsp-file>/school/admin/book/view/Add_Book.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping>
+				    <servlet-name>ADMIN_Add_Book</servlet-name>
+				    <url-pattern>/admin-add-book/*</url-pattern>   
+				</servlet-mapping>
+		
+  
+  
+  
+  
+  			 <servlet>
+				    <servlet-name>Admin_Sign_In_Controller</servlet-name>
+				    <jsp-file>/school/admin/profile/controller/Admin_Sign_In_Controller.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping>
+				    <servlet-name>Admin_Sign_In_Controller</servlet-name>
+				    <url-pattern>/admin-sign-in</url-pattern>   
+				</servlet-mapping>
+		
+  
+  
+  
+  
+  
+  
+  				 <servlet>
+				    <servlet-name>Admin_Sign_Out_Controller</servlet-name>
+				    <jsp-file>/school/admin/common/Admin_Sign_Out_Controller.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping>
+				    <servlet-name>Admin_Sign_Out_Controller</servlet-name>
+				    <url-pattern>/Admin_Sign_Out_Controller</url-pattern>   
+				</servlet-mapping>
+		
+  
+  
+  		 <servlet>
+				    <servlet-name>Admin_Home_Page</servlet-name>
+				    <jsp-file>/school/admin/profile/view/Admin_Home_Page.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping>
+				    <servlet-name>Admin_Home_Page</servlet-name>
+				    <url-pattern>/admin-home</url-pattern>   
+				</servlet-mapping>
+		
+  
+  
+  				 <servlet>
+				    <servlet-name>index</servlet-name>
+				    <jsp-file>/index.jsp</jsp-file>
+				</servlet>
+				 
+				<servlet-mapping>
+				    <servlet-name>index</servlet-name>
+				    <url-pattern>/</url-pattern>   
+				</servlet-mapping>
+		
+  
+  
+  
+  
+  
+  <servlet-mapping>  
+        <servlet-name>default</servlet-name>  
+        <url-pattern>*.css</url-pattern>  
+    </servlet-mapping>
+  
+  
+  
+    <servlet-mapping>  
+        <servlet-name>default</servlet-name>  
+        <url-pattern>*.js</url-pattern>  
+    </servlet-mapping> 
+ 
+ 
+ <servlet-mapping>  
+        <servlet-name>default</servlet-name>  
+        <url-pattern>*.jpg</url-pattern>  
+    </servlet-mapping> 
+    
+     <servlet-mapping>  
+        <servlet-name>default</servlet-name>  
+        <url-pattern>*.gif</url-pattern>  
+    </servlet-mapping> 
+ 
+  <servlet-mapping>  
+        <servlet-name>default</servlet-name>  
+        <url-pattern>*.png</url-pattern>  
+    </servlet-mapping> 
+ 
+	
+	
+	  <servlet-mapping>  
+        <servlet-name>default</servlet-name>  
+        <url-pattern>*.eot</url-pattern>  
+    </servlet-mapping> 
+ 
+	
+	
+	
+	  <servlet-mapping>  
+        <servlet-name>default</servlet-name>  
+        <url-pattern>*.woff</url-pattern>  
+    </servlet-mapping> 
+  
+  
+  
+  
+  
+  
+</web-app>
